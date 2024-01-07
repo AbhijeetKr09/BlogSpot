@@ -5,9 +5,11 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const _ = require("lodash");
 const mongoose = require("mongoose");
+require('dotenv').config();
 
+const API = process.env.MONGOAPI;
 // mongodb setup
-const url = "mongodb+srv://admin-ak:test123@cluster0.z1ol9u7.mongodb.net/blogdb";
+const url = API;
 
 main().catch(err => { console.log(err) });
 
