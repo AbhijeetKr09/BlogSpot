@@ -20,3 +20,16 @@ BlogSpot is a feature-rich web application developed for creating and managing b
    ```
    git clone https://github.com/AbhijeetKr09/BlogSpot.git
    ```
+2. Navigate to the project directory:
+   ```
+   cd "path to your folder"
+   ```
+3. Install dependencies:
+   ```
+   npm install
+   ```
+4. Start the server:
+   ```
+   npm start
+   ```
+5. Open your browser and visit `http://localhost:3000` to access the application.
